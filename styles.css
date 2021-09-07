@@ -1,0 +1,127 @@
+*
+{
+	box-sizing: border-box;
+}
+.topdiv
+{
+	background-color:#36486b;
+	height:120px;
+}
+.footer
+{
+	background-color:#3b3a30;
+	height:100px;
+	clear:both;
+}
+.heading
+{
+	color:white;
+	text-align:center;
+	padding-top:40px;
+	font-weight:bold;
+}
+
+.navigationBar
+{
+	background-color:#80ced6;
+	list-style-type:none;
+	text-align:left;
+	height:70px;
+	padding-left:0px;
+	margin-top:0;
+}
+.item
+{
+	/*display:inline-block;*/
+	float:left;
+	font-size:20px;
+	padding:25px 20px 24px 20px;
+}
+.navigationBar a
+{
+	color:white;
+	text-decoration:none;
+}
+.navigationBar a:hover
+{
+	background-color:black;
+}
+.item:hover
+{
+	background-color:black;
+}
+.dropdown
+{
+	position:relative;
+}
+.dropdowncontent
+{
+	display:none;
+	background-color:#80ced6;
+	position:absolute;
+	top:70px;
+	left:0px;
+	min-width:125px;
+}
+.dropdown:hover .dropdowncontent
+{
+		display:block;
+}
+.dropdowncontent a
+{
+	display:block;
+	padding:5px;
+}
+.active
+{
+	background-color:gray;
+}
+
+.sidediv
+{
+	list-style-type:none;
+	padding-left:20px;	
+	float:left;
+	width:25%;
+	margin-top:20px;
+}
+.sidediv li
+{
+	background-color:#d5f4e6;
+	margin:0 4px 4px 0px;
+	height:35px;
+	padding:5px;
+	font-size:17px;
+	
+}
+.sidediv a
+{
+	text-decoration:none;
+	color:#666;
+}
+.sidediv li:hover a
+{
+	color:white;
+}
+.sidediv li:hover
+{
+	background-color:#666;
+}
+.para
+{
+	font-size:23px;
+	line-height:1.3;
+	
+}
+.rightdiv
+{
+	float:left;
+	width:75%;
+	padding-left:20px;
+}
+.image
+{
+	display:block;
+	margin:auto;
+	
+}
